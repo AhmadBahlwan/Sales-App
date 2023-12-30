@@ -35,7 +35,7 @@ public class Sale {
     @JsonIgnore
     private int quantity;
 
-    @Column(name = "total")
+    @Transient
     private double total;
 
     public Sale() {
